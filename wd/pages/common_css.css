@@ -1,0 +1,75 @@
+h1 {
+	font-family: 'Roboto', sans-serif;
+}	
+
+p {
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+body {
+	background-image: E:\Web Development\Portfolio\wd\pages\background.jpg
+	color: #00FF00;
+	max-width: 960px;
+	margin: 10px auto;
+}	
+
+#ex_float {
+	float: left;
+}
+
+html { 
+	background: url("http://static.tumblr.com/vy2pzfk/46zls6lto/deserve_bg.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}  
+
+section {
+	border-radius: 20px;
+	border: 3px dashed #4a4; 
+	margin: .5em; 
+	padding: .4em; 
+}
+a:hover {
+	border-bottom: 3px solid #4a4;
+	background-color: green; 	
+}
+
+#vertical_nav	
+{ 
+	border: solid 0.1em #e1e1e1; 
+	border-radius: 1em; 
+	margin: 0; 
+	padding: 0; 
+	width: 20em;
+	color: inherit; 
+	background-color: inherit; 
+}	
+
+#vertical_nav li	 
+{ 
+	margin: 1em 0 0 0; 
+	padding: 0; 
+	list-style: none; 
+	color: inherit; 
+	background-color: inherit; 
+}	
+
+#vertical_nav a 
+{ 
+	margin: 0; 
+	padding: 0 1em; 
+	display: block; 
+	text-decoration: none; 
+	border-bottom: 1px solid #A8BFCF; 
+	color: inherit; 
+	background-color: inherit; 
+}
+#vertical_nav a:hover 
+{ 
+	border-bottom: solid 1px #ffa20f; 
+	color: inherit; 
+	background-color: inherit; 
+}

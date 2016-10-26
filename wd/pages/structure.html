@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Structure</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="your name" />
+		<meta name="description" content="Web development exercises" />
+		<link href="main.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<article>
+			<header>
+			<ul>
+				<li><a href= "structure.html"> Structure </a></li>
+				<li><a href= "common elements.html"> Common Elements </a></li>
+				<li><a href= "graphics.html"> Graphics </a></li>
+				<li><a href= "temporal data.html"> Temporal Data </a></li>
+				<li><a href= "HTML forms.html"> Forms </a></li>
+				<li><a href= "tables.html"> Tables</a></li>
+			</ul>
+				<h1>Structure</h1>						
+			</header>
+			<section id="main_section">
+				<p><b>What is markup?</b></p>
+				<p> Markup is used to define specific elements such as headings, paragraphs and fonts 
+				by using tags such as &ltp> to represent paragraphs and &lth1> to represent headings. </p>
+				
+				<p><b>What is hypertext and hypermedia?</b></p>
+				<p>Hypertext and hypermedia are used as links which direct you to other websites from </p>
+				<p> the one you have created. An example of Hypertext would be </p> <a href "https://www.google.co.uk/?gfe_rd=cr&ei=yvTvV82jGs_U8gfc976ICQ"> this </a>
+				
+				<p><b>What is a doctype and why is it important to include it in every HTML document?</b></p>
+				<p>When you add &ltdoctype> at the start of your HTML file you are declaring what version of 
+				HTML it has been written in so that the browsers which it is opened in knows what to expect. </p>
+				
+				<p><b>What language can be used to style web documents?</b></p>
+				<p> CSS </p>
+				
+				<p><b>Which elements are required for a valid XHTML5 document?</b></p>
+				<p> doctype
+				<p> html </p>
+				<p> title </p>
+				<p> head </p>
+				<p> body </p>
+				
+				<p><b>What is a self closing HTML element? Give an example?</b></p>
+				<p> Some elements used in HTML do not require a closing tag such as &lt/p> 
+				 and can closed without. An example of this would be with the &ltlink element 
+				 which is closed with /> instead of &lt/link> </p>
+				
+				<p><b>What is XML and why is it important to web developers?</b></p>
+				<p> XML stands for EXtensible Markup Language and is structured in a similar way to HTML
+				 The difference between XML and HTML is the fact that XML allows you to define your own tags 
+				 instead of using the generic tags you'd normally use in HTML. For example... </p>
+				
+				<p><code>&ltnote></code></p> 
+				
+					<p><code>&ltto>Tove&lt/to> </code></p> 
+					<p><code>&ltfrom>Jani&lt/from> </code></p> 
+					<p><code>&ltheading>Reminder&lt/heading> </code></p> 
+					<p><code>&ltbody>Don't forget me this weekend!&lt/body> </code></p> 
+					<p><code>&lt/note></code>
+				
+				<p> Notice how instead of using tags such as &lth1> I used &ltheading> instead. XML allows you to 
+				 create custom tags in your script to simplify the creation of your site. </p>
+				
+				<p><b>Describe 4 XML rules?</b></p>
+				<p> 1. Elements must be properly nested. </p> 
+				<p> 2. Elements must have a start and end tag. </p>
+				<p> 3. Element names are case-sensitive. </p>
+				<p> 4. Attribute values must be enclosed in double quotation marks. </p>
+				
+				<p><b>What is the difference between a "well-formed" and a valid web document?</b></p>
+				<p> A well formed XML document is one where everything in the document is used correctly with no errors 
+				 this includes opening and closing tags in their correct order and the HTML version is declared on the first line with &ltdoctype> 
+				 A valid document is where the the document is well-formed but also follows the rules of a specific doctype. </p>
+			</section>
+			
+			<section id="elements">
+				<h1>The different Elements in this html</h1>
+				
+				<p><b> &ltp> </b></p>
+				<p> &ltp> is used to define standard paragraphs and sentences in your html document such as this one. </p>
+				
+				<p><b> &lth1> </b></p>
+				<p> &lth1> is used to create headings in html. You can modify the number from &lth1> to &lth6> to alter the </p>
+				<p> size of your heading with 1 being the largest and 6 being the smallest </p>
+				
+				<p><b> &lthead> </b></p>
+				<p> &lthead> is where you define the things which you do not see on the website itself  such as the charset you use 
+				 and also the text which appears on the tab of your web browser. Nothing you include here will appear on the page itself. 
+				 it is purely used for metadata </p>
+				
+				<p><b> &ltbody> </b></p>
+				<p> &ltbody> is where all of the visible content within your website which you actually view on the web browser is found </p>
+			</section>
+			<footer>	
+				<a href= "index.html"> Back to home </a>
+			</footer>
+		</article>
+	</body>
+</html>

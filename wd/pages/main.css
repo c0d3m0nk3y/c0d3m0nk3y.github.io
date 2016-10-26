@@ -1,0 +1,99 @@
+html{
+		background-color: 0C0D0D;
+		color: white;
+		font-family: 'Fjalla One', sans-serif;
+}
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+}
+
+li {
+		display: inline;
+}
+
+a {		
+		color: white;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: 252626;
+	
+}
+
+header{
+		border-radius: 15px;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: 252626;
+}
+
+#personal{
+		border-radius: 15px;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: 252626;
+		text-align: center;
+		color: white;
+}
+
+#main_section{
+		border-radius: 15px;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: 252626;
+	
+}
+
+#menu{
+		border-radius: 15px;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: 252626;
+}
+
+#elements{
+		border-radius: 15px;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: 252626;
+	
+}
+
+#headings{
+		border-radius: 15px;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: 252626;
+}
+
+#audio{
+		border-radius: 15px;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: 252626;
+}
+
+#webms{
+		border-radius: 15px;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: 252626;
+}
+footer{
+	border-radius: 15px;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: 252626;
+}
